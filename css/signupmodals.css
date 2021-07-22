@@ -1,0 +1,58 @@
+
+   
+    .modal-body input{
+        border-radius:10px ;
+    }
+    .modal-body input:hover{
+        background-color:rgb(218, 177, 101) ;
+        color: rgb(255, 255, 255);
+    }
+    .signBtn{
+        /* padding: 4px 10px; */
+        padding: 4px 10px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    /* background: #7fdcd6; */
+    background: none;
+    /* color: white; */
+    border: 2px solid;
+    /* font-size: 18px; */
+    }
+    .signBtn:hover{
+        background-color: rgb(44, 85, 151);
+        color:white;
+    }
+    .hogo{
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1));
+    }
+   .hogo img{
+        width: 100px;
+        display: block;
+        margin: auto;
+        height: 96px;
+        overflow: hidden;
+        border-radius: 75px;
+      
+    }
+    .sad{
+        /* text-transform: uppercase; */
+        position: relative;
+        left: 20px;
+        color: wheat;
+    }
+    .modal-header{
+        background: linear-gradient(#ffa4a4,#ab00ff);
+    }
+    .rsd{
+        color: white;
+    }
+    .modal-footer{
+        /* background-color: thistle; */
+            /* background-color: thistle; */
+    background-color: rgb(246 236 246);
+    }
+    .modal-body{
+        background-color: #e5f4ef;
+    }
+ 

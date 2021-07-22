@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+.rf {
+    background-color: #1c1b1b;
+}
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #3f3f3f; */
+
+}
+
+.c li {
+    list-style: none;
+    padding: 0px 50px;
+    margin: 0px 30px;
+}
+
+.c li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.c li a:hover {
+    animation: ask2 1s ease-in-out infinite;
+}
+
+@keyframes ask2 {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: hotpink;
+    }
+
+    75% {
+        color: khaki;
+    }
+
+    100% {
+        color: lawngreen;
+    }
+}
+
+.d li {
+    list-style: none;
+    padding: 0px 50px;
+    margin: 0px 30px;
+}
+
+.d li a {
+    text-decoration: none;
+   color: white;
+    font-size: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+   
+}
+
+.d li a:hover {
+    animation: ask 1s ease-in-out infinite;
+}
+
+@keyframes ask {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: hotpink;
+    }
+
+    75% {
+        color: khaki;
+    }
+
+    100% {
+        color: lawngreen;
+    }
+}
+
+.vl {
+    height: 150px;
+    border: 0.5px solid white;
+    margin-left: 20px;
+    display: block;
+}
+
+.v2 {
+    width: 150px;
+    border: 0.5px solid white;
+    margin-left: 20px;
+    display: block;
+    margin: auto;
+}
+
+.relt {
+    position: relative;
+    bottom: 20px;
+}
+.anim{
+    animation: sona 1s infinite ease-in-out;
+}
+@keyframes sona {
+    0%{
+        color: red;
+    }
+    25%{
+        color: hotpink;
+    }
+    50%{
+        color: rgb(94, 15, 197);
+    }
+    75%{
+        color: rgb(240, 231, 152);
+    }
+    100%{
+        color: lavenderblush;
+    }
+    
+}

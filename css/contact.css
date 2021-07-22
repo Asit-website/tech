@@ -1,0 +1,15 @@
+/* background: linear-gradient(
+    45deg
+    , #eec1c1, #9e8181); */
+    .sect{
+        background: linear-gradient(
+            45deg
+            , #eec1c1, #9e8181); 
+    }
+    .colr{
+        color: rgb(51, 214, 255);
+    }
+    .contact{
+        background: linear-gradient(#e68a8a,#fdc3c3,#bda8a8,#f6f3f3);
+      
+    }
