@@ -209,23 +209,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
-    <script>
-    function toggleHide(e) {
-        let bsn = document.getElementById('bsn');
-        let laravel = document.getElementById('laravel');
-
-        if (laravel.style.display != 'none') {
-            laravel.style.display = 'none';
-            e.preventDefault();
-        } else {
-            laravel.style.display = 'block';
-        }
-    }
-    //   let dt=new Date();
-    //   console.log(dt);
-    //   let ft=dt.getFullYear();
-    //   console.log(ft);
-    </script>
+  
 
 
 </body>
